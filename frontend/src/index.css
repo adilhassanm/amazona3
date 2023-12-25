@@ -15,3 +15,22 @@ header {
 header a {
   color: #ffffff;
 } /*here a means whaever in link in header get this color*/
+main {
+  padding: 1rem;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap; /*if no space pushing to new line*/
+  justify-content: center;
+}
+.produc {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+.produc img {
+  width: 100%; /* this is to ensure in flex contaner,here elements adjust their size based on the size of the viewport or their containing elements.*/
+  max-width: 400px;
+}
+.produc-info {
+  padding: 1rem;
+}
